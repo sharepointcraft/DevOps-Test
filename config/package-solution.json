@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "dev-ops-test-client-side-solution",
+    "id": "8beb85ef-14a5-44d2-83a1-a46c707711ba",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "DevOpsTest description"
+      },
+      "longDescription": {
+        "default": "DevOpsTest description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "dev-ops-test Feature",
+        "description": "The feature that activates elements of the dev-ops-test solution.",
+        "id": "cb8b73e3-f395-4de4-b440-bcd14194f753",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/dev-ops-test.sppkg"
+  }
+}
